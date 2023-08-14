@@ -7,13 +7,13 @@ Projektet läser en XML och letar efter ett attribut som har id 42007. Ifall den
 Clone the project
 
 ```bash
-  git clone https://github.com/GustafGronlund/etteplan.git
+  git clone https://github.com/GustafGronlund/etteplan_arbetsprov.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd etteplan
+  cd etteplan_arbetsprov
 ```
 
 Install dependencies
