@@ -6,7 +6,7 @@ createFileBtn.addEventListener("click", async () => {
     const response = await fetch("/create-file/create-file");
     const result = await response.json();
 
-    if (result.message === "File created successfully.") {
+    if (result.message === "The file was successfully created.") {
       userResultMessage.textContent = "Filen är nu skapad";
     } else if (result.message.includes("already exists")) {
       userResultMessage.textContent = "Filen existerar redan";
